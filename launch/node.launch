@@ -1,0 +1,5 @@
+<launch>
+<!--	<node pkg="BenderControl" name="pulseTest" type="pulseTest" output="screen" launch-prefix="sudo"> -->
+	<node pkg="BenderControl" name="BenderControl" type="BenderControl" output="screen" launch-prefix="sudo">
+	</node>
+</launch>
